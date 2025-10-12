@@ -1,4 +1,8 @@
 # Graph Neural Networks: Node Classification & Link Prediction (Demo)
+![License](https://img.shields.io/github/license/KonNik88/gnn-node-link-pytorch)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange)
+![PyG](https://img.shields.io/badge/PyTorch%20Geometric-2.x-green)
 
 Minimal but complete project on **Graph Neural Networks (GNNs)** with [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/). This is the **demo tier** (Cora/PubMed) to validate code, training loop, and metrics before moving to a real-world graph project (e.g., user–item recommendations with GNN).
 
